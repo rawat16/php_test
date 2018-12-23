@@ -4,7 +4,7 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="../../view/include_html/logout.php" class="w3-bar-item w3-button"><h4><font color="black"><b> หน้าหลัก </b></font></h4></a>
+    <a href="../../index.php" class="w3-bar-item w3-button"><h4><font color="black"><b> หน้าหลัก </b></font></h4></a>
 	   
      <a href="../../view/page/faq.php" class="w3-bar-item w3-button w3-hide-small w3-right "><h4><font color="black"><b> คำถามที่พบบ่อย</b></font></h4></a>
        <?php   if (isset($_SESSION["ok"]))  { ?>
